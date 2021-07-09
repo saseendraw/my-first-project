@@ -1,0 +1,223 @@
+
+
+
+
+
+
+*{
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+
+
+/*-----------------------------------------------TITLE SECTION-----------------------*/
+
+h1{
+    font-weight: bold;
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+
+h2{
+    font-size: 2rem;
+    color: white;
+}
+/*-----------------------------------------------TITLE SECTION-----------------------*/
+
+
+#title{
+
+    background-color: #0F4C75;
+    padding-bottom: 100px;
+
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding-bottom: 60px;
+    padding-left: 0;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+}
+
+.nav-item{
+    padding: 0 10px 0 10px ;
+}
+
+.title-img{
+    width: 60%;
+    
+    position: absolute;
+    left: 20%;
+    top: -20%;
+    z-index: 0;
+}
+
+.download-btn{
+    margin: 25px 15px 0 0 ;
+    transition: all .5s;
+}
+
+
+/*-----------------------------------------------FEATURE SECTION-----------------------*/
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.features-read{
+    margin: 0 30px;
+}
+.icon{
+    color: #51C4D3;
+    transition: all 1s;
+}
+
+.icon:hover{
+    color: #0F4C75 ;
+    size: 1.2rem;
+    transform: scale(1.2);
+}
+
+.feature-box{
+    padding: 7% 0;
+}
+
+/*-----------------------------------------------Testimonials SECTION-----------------------*/
+
+
+
+#testimonials{
+    background-color: #51C4D3;
+
+    text-align: center;
+}
+
+
+.carousel-item{
+    padding: 5% 15%;
+}
+
+
+.carousel-comment{
+
+    font-family: 'Indie Flower', cursive;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.testimonial-text{
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+/*-----------------------------------------------PRESS SECTION-----------------------*/
+
+#press{
+    background-color: #51C4D3;
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+#press img {
+    
+    width: 15%;
+    margin: 0 20px;
+
+}
+
+/*-----------------------------------------------PRICING SECTION-----------------------*/
+
+
+#pricing{
+    margin: 7% 7%;
+    text-align: center;
+}
+
+.card-price{
+    color: black;
+}
+
+.price-title{
+    color: black;
+}
+
+.card-container{
+    margin-top: 40px;
+}
+
+/*-----------------------------------------------cta SECTION-----------------------*/
+
+#cta{
+    background-color: #0F4C75;
+    padding: 7% 25%;
+    text-align: center;
+   
+}
+
+.cta-heading{
+    color: white;
+    font-size: 3.5rem;
+    padding-bottom: 20px;
+}
+
+/*-----------------------------------------------FOOTER SECTION-----------------------*/
+
+#footer{
+    padding: 7% 25%;
+    text-align: center;
+}
+
+#footer i {
+    margin: 15px;
+}
+
+.footer-last{
+    font-size: 0.7rem;
+}
+
+
+/*-----------------------------------------------MEDIA SECTION-----------------------*/
+
+@media(max-width :990px){
+
+
+
+    #title{
+
+       text-align: center;
+    }
+    .title-img{
+        width: 50%;
+        transform: rotate(0);
+       position: static;
+       width: 40%;
+       margin-top: 30px;
+    }
+
+}
